@@ -1,0 +1,205 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow-y: scroll; /* tetap bisa scroll */
+  scrollbar-width: none; /* untuk Firefox */
+  -ms-overflow-style: none; /* untuk IE dan Edge lama */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* untuk Chrome, Safari, dan Opera */
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(200, 228, 255);
+}
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
+  padding: 1rem;
+  padding-right: 5rem;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 5rem;
+  padding-right: 10rem;
+}
+
+.picture img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.hero ul {
+  list-style: none;
+  text-align: justify;
+}
+
+.hero ul li h1 {
+  font-size: 70px;
+  padding-bottom: 0.5rem;
+}
+
+.hero ul li p {
+  font-size: 20px;
+  padding-bottom: 1.5rem;
+}
+
+.hero ul li a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+
+.hero ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style Tentang */
+
+.tentang {
+  padding: 12rem 10rem;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.tentang h2 {
+  font-size: 32px;
+  padding-bottom: 1rem;
+}
+
+/* Style proyek */
+.proyek h2 {
+  padding-left: 10rem;
+  font-size: 32px;
+  padding-bottom: 5rem;
+}
+
+.proyek ul {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+  justify-content: center;
+}
+
+.proyek ul li {
+  padding: 1rem;
+  justify-content: center;
+  background-color: white;
+  line-height: 1.5;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.proyek ul li img {
+  padding-bottom: 1rem;
+}
+
+.proyek ul li p {
+  padding-bottom: 1rem;
+}
+
+.proyek ul li a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+
+.proyek ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style kontak */
+
+.kontak {
+  padding: 12rem 10rem;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+.kontak h2 {
+  padding-bottom: 1rem;
+}
+
+.kontak p {
+  padding-bottom: 1rem;
+}
+
+.kontak ul {
+  list-style: none;
+}
+
+.kontak ul li a {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.kontak ul li a p {
+  color: black;
+  padding: 5px;
+  transition: 0.2s;
+}
+
+.kontak ul li a p:hover {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.sosmed img {
+  width: 22px;
+  padding-top: 10px;
+}
+
+.footer {
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
